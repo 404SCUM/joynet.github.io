@@ -1,0 +1,55 @@
+
+	
+@font-face { 
+	font-family: "Saitamaar"; 
+	src: url("./fonts/Saitamaar.woff2") format("woff2"), 
+		url("./fonts/Saitamaar.woff") format("woff"), 
+		url("./fonts/Saitamaar.ttf") format("truetype"); 
+	font-weight: normal;
+	font-style: normal; 
+	font-display: swap; 
+}
+
+body {
+  background-color: #ffbffb;
+  color: black;
+  font-family: Saitamaar;
+  text-align: center;
+  margin:0;
+  padding:0;
+}
+  
+  .parallel {
+    display: flex;
+    gap: 15px;
+    justify-content:center;
+    max-width: 500px;
+    margin: 0 auto;
+    }
+    
+  .parallel p { 
+    flex: 1;
+    margin: 0;}
+    
+  .grid {
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    border: none;
+    }
+    
+    .grid div {
+      padding: 10px;
+      text-align: left;
+      border: none;
+      
+    }
+#art {
+  background-color: white;
+  height: 600px;
+  overflow-y:auto;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+  
